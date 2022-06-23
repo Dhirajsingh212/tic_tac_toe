@@ -1,0 +1,20 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em;
+    font-size: 5rem;
+    margin-left: 2em;
+}
+
+.board_box_1{
+    cursor: pointer;
+    border: 1px solid black;
+    height: 2em;
+    width: 3em;
+    text-align: center;
+    padding-top: 0.2em;
+    /* border-radius: 0.5em; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: wheat;
+
+}

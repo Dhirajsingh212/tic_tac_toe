@@ -1,0 +1,26 @@
+.app{
+
+}
+
+.app_winner{
+   text-transform: capitalize;
+   font-weight: 600;
+   font-size: 2em;
+   color: white;
+   padding-bottom: 1em;
+   padding-left: 13.5em;
+}
+
+.app_button{
+   margin-top: 2em;
+   margin-bottom: 2em;
+   margin-left: 30em;
+   border: none;
+   border-radius: 0.5em;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 0.5em 2em 0.5em 2em;
+}
+
+.app_button:active{
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
