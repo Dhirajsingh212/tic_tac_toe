@@ -32,3 +32,9 @@
 .app_button:active {
    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+@media screen and (max-width:480px) {
+   .app {
+      padding-top: 5em;
+   }
+}
