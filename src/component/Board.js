@@ -29,7 +29,7 @@ export default function Board() {
 
   return (
     <>
-      <div className="board">
+      <div className="board container">
         <div
           className="board_box_1 box_1"
           id="box_1"
