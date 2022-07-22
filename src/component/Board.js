@@ -7,7 +7,6 @@ export default function Board() {
   const [state, setstate] = useState(1);
 
   const clicked = (e) => {
-    // console.log(e.target.id);
     var data = document.getElementById(`${e.target.id}`);
     if (state % 2 !== 0) {
       data.innerText = "X";

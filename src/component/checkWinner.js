@@ -77,4 +77,17 @@ export function checkWinner() {
     datadisable.pointerEvents = "none";
     return "player 2 wins";
   }
+  if (
+    !data1 !== true &&
+    !data2 !== true &&
+    !data3 !== true &&
+    !data4 !== true &&
+    !data5 !== true &&
+    !data6 !== true &&
+    !data7 !== true &&
+    !data8 !== true &&
+    !data9 !== true
+  ) {
+    return "Draw";
+  }
 }
